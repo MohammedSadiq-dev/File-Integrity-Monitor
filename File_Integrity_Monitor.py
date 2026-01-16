@@ -2,7 +2,7 @@ import os
 import hashlib
 import time
 
-Watch_Directory = "./target_files"
+Watch_Directory = "."
 Poll_Interval = 3
 
 def calculate_file_hash(filepath):
@@ -94,4 +94,5 @@ if __name__ == "__main__":
 
     
     
+
 
